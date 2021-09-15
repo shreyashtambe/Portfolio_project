@@ -1,6 +1,16 @@
 const tabItems = document.querySelectorAll('.tab-item');
 const tabContentItems = document.querySelectorAll('.tab-content-item');
 
+// document.querySelector("#SIGN").addEventListener("click", () => {
+//     window.location.href="index1.html";
+//   });
+  
+  document.querySelector("#temp").addEventListener("click", () => {
+    window.location.href="browsingpage.html";
+  });
+
+	
+
 // Select tab content item
 function selectItem(e) {
 	// Remove all show and border classes
